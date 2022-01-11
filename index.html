@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Spotify</title>
+</head>
+<body>
+
+
+  <!-- NavBar Box & Album Container -->
+  <section class="main-Container container-fluid">
+    <div class="row">
+
+      <!-- NavBar Box -->
+      <div class="col-md-2 navbar-brand-box">
+        <!-- Image and text -->
+        <nav class="navbar navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./images_clone/icons8-spotify.svg" class="me-2" height="40" alt="MDB Logo" loading="lazy" />
+              <h5 class="mt-3">Spotify</h5>
+            </a>
+            <!-- Toggle button -->
+            <button class="menuBar-open btn" type="button"  class="navbar-toggler"
+            type="button">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- Navlinks  -->
+          <div class="flex-column mx-lg-3 Menu-box" id="Menu-box">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="me-3 fas fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="me-3 fas fa-search"></i>Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="me-3 fas fa-plus-square"></i>Create Playlist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class=" me-3 far fa-thumbs-up"></i>Liked Song</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="me-3 fas fa-grip-lines-vertical"></i>Your Library</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+
+      <!-- Album Box -->
+      <div class="col-md-10 Album-Box">
+        <div class="row d-flex flex-column">
+          
+          <div class="col-12 col-sm-4 mt-2">
+            <span><i class="fas fa-2x fa-chevron-circle-left"></i></span>
+            <span><i class="fas fa-2x fa-chevron-circle-right"></i></span>
+          </div>
+          <div class="col-12 col-sm-4 album-show my-2" >
+            <!-- album show -->
+            <div class="row">
+              <div class="col-md-4">
+                <!-- img -->
+                <img src="images_clone/Ed Sheeran/Ed Sheeran.jpg" class="img-fluid shadow-2-strong"
+                  alt="album-show-img" />
+              </div>
+              <div class="col-md-8"style="color: lightgray;">
+                <!-- intro -->
+                <h1 class="intro">Hollywood Music</h1>
+                <h5 class="intro">Listen your Favorit songs</h5>
+                <p class="intro">like || Share</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 table-list">
+            <!-- Song list -->
+            <div class="table-responsive" style="background: black;">
+              <table class="table table-hover table-dark border-dark">
+                <thead style="border-bottom:1px solid #42c4426e;color: lightgreen;">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Songs</th>
+                    <th scope="col">Singer</th>
+                    <th scope="col">Duration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="song-box">
+                    <th scope="row">1
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">34 35</td>
+                    <td class="singer-name">Ariana Grande</td>
+                    <td>03.04</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">2
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">breackup with your girlfriend</td>
+                    <td class="singer-name">Ariana Grande</td>
+                    <td>03.04</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">3
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Lady Gaga Rain On Me</td>
+                    <td class="singer-name">Ariana Grande</td>
+                    <td>03.04</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">4
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Santa Tell Me</td>
+                    <td class="singer-name">Ariana Grande</td>
+                    <td>04.03</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">5
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Side To Side</td>
+                    <td class="singer-name">Ariana Grande</td>
+                    <td>04.03</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">6
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Bad Habits</td>
+                    <td class="singer-name">Ed Sheeran</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">7
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Everything Has Changed</td>
+                    <td class="singer-name">Ed Sheeran</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">8
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">I See Fire </td>
+                    <td class="singer-name">Ed sheeran</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">9
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">perfect</td>
+                    <td class="singer-name">Ed Sheeran</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">10
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Shape of You </td>
+                    <td class="singer-name">Ed Sheeran</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">11
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Daylight</td>
+                    <td class="singer-name">Tylor Swift</td>
+                    <td>04.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">12
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">i know you were trouble</td>
+                    <td class="singer-name">Tylor Swift</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">13
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Message In A Bottle</td>
+                    <td class="singer-name">Tylor Swift</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">14
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Run</td>
+                    <td class="singer-name">Tylor Swift</td>
+                    <td>05.00</td>
+                  </tr>
+                  <tr class="song-box">
+                    <th scope="row">15
+                      <i class="fas fa-play"></i>
+                    </th>
+                    <td class="song-name">Daylight</td>
+                    <td class="singer-name">Tylor Swift</td>
+                    <td>04.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Input Container -->
+  <section class="input-Container container-fluid">
+    <div class="row">
+
+      <div class="col-2 col-md-4">
+        <div class="row">
+          <div class="col-6 display-song-Img">
+            <img src="./images_clone/icons8-spotify.svg" class="img-fluid rounded" alt="Song_img" />
+
+          </div>
+          <div class="col-6 display-Song-name">
+            <h6> Song name</h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-8 col-md-4 py-2">
+        <div class="row flex-column">
+          <div class="col-6 song-Icons">
+            <!-- <h6 class="master-backword-btn"><i class="fas fa-1x fa-angle-double-left"></i></h6> -->
+            <h6 class="master-play-btn">   <i class="far fa-2x fa-play-circle mx-3"></i></h6>
+            <!-- <h6 class="master-forword-btn"><i class="fas fa-1x fa-angle-double-right"></i></h6> -->
+          </div>
+          <div class="col-6 music-Track">
+            <input type="range" id="music-Track-range" value="0" max="100">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2 col-md-4 gif-box"></div>
+
+    </div>
+  </section>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+  <!-- script -->
+  <script src="./script.js"></script>
+</body>
+</html>
