@@ -1,4 +1,4 @@
-# Spotify_clone
+# Spotify Clone
 It was a clone of spotify.
 ## Used language ##
 - HTML 
